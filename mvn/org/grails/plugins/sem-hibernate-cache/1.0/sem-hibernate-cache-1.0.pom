@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>sem-hibernate-cache</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0</version>
+  <name>Redis Hibernate Cache Plugin</name>
+  <description>Grails integration with Redis as a backend for Hibernate 2nd level cache</description>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Aydın Öztürk</name>
+      <email>aydin.ozturk@uzmar.net</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.debop</groupId>
+      <artifactId>hibernate-redis</artifactId>
+      <version>1.6.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.hibernate</groupId>
+          <artifactId>hibernate-core</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.hibernate</groupId>
+          <artifactId>hibernate-entitymanager</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>ch.qos.logback</groupId>
+          <artifactId>logback-classic</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

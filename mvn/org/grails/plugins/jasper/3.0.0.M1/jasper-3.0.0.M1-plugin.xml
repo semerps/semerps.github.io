@@ -1,0 +1,25 @@
+<plugin name='jasper' version='3.0.0.M1' grailsVersion='5.0.0.M1 &gt; *'>
+  <type>jasper.JasperGrailsPlugin</type>
+  <authorEmail>candrews@integralblue.com</authorEmail>
+  <author>Craig Andrews</author>
+  <documentation>http://www.grails.org/plugin/jasper</documentation>
+  <profiles>[web]</profiles>
+  <description>
+	Adds easy support for launching jasper reports from GSP pages.
+	After installing, run your application and request (app-url)/jasper/demo for a demonstration and instructions.
+    </description>
+  <title>Jasper Plugin</title>
+  <version />
+  <grailsVersion>5.0.0.M1 &gt; *</grailsVersion>
+  <license>Apache License 2.0</license>
+  <pluginExcludes>[grails-app/views/error.gsp]</pluginExcludes>
+  <issueManagement system='JIRA' url='http://jira.grails.org/browse/GPJASPER' />
+  <name>jasper</name>
+  <scm url='https://github.com/candrews/grails-jasper' />
+  <resources>
+    <resource>jasper.UrlMappings</resource>
+    <resource>jasper.Application</resource>
+    <resource>jasper.BootStrap</resource>
+    <resource>JasperService</resource>
+  </resources>
+</plugin>

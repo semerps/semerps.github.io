@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>marshallers</artifactId>
+  <packaging>zip</packaging>
+  <version>0.7-SNAPSHOT</version>
+  <name>Easy Custom XML and JSON Marshalling for Grails Converters</name>
+  <description>\
+Easy registration and usage of custom XML and JSON marshallers supporting hierarchical configurations.
+
+Further documentation can be found on the GitHub repo.
+</description>
+  <url>https://github.com/pedjak/grails-marshallers</url>
+  <developers>
+    <developer>
+      <name>Predrag Knezevic</name>
+      <email>pedjak@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Denis Halupa</name>
+      <email>denis.halupa@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Angel Ruiz</name>
+      <email>aruizca@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/pedjak/grails-marshallers</url>
+  </scm>
+  <dependencies />
+</project>

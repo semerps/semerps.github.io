@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "rest-client-builder",
+    "version": "3.0.0.M1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "ged3w7s6ffddlamtdh6xjxlpkm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rest-client-builder-3.0.0.M1.jar",
+          "url": "rest-client-builder-3.0.0.M1.jar",
+          "size": 189692,
+          "sha512": "baaaf17ff729cd15708d8b7c41299cada2b1c9363b2d131eaa8d04e03dd44ba947c607882fe5f1bc67440fba2d83fdd98cf77b9f6a902fc20debc207676455f0",
+          "sha256": "e6a77d665ac9dddd4d4c66026afe43f624ef57f2b361f297d4aa957bce5124c4",
+          "sha1": "76a11a3296e27f76892d33f2df5e7b4a351d9ec8",
+          "md5": "3b73d2ea7e5d5693b570620b27ad53bf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-tomcat"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "converters",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-boot"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-logging"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-rest"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-databinding"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-i18n"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-services"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-url-mappings"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-interceptors"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "cache"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "async"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "scaffolding"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "gsp"
+        },
+        {
+          "group": "com.bertramlabs.plugins",
+          "module": "asset-pipeline-grails",
+          "version": {
+            "requires": "3.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rest-client-builder-3.0.0.M1.jar",
+          "url": "rest-client-builder-3.0.0.M1.jar",
+          "size": 189692,
+          "sha512": "baaaf17ff729cd15708d8b7c41299cada2b1c9363b2d131eaa8d04e03dd44ba947c607882fe5f1bc67440fba2d83fdd98cf77b9f6a902fc20debc207676455f0",
+          "sha256": "e6a77d665ac9dddd4d4c66026afe43f624ef57f2b361f297d4aa957bce5124c4",
+          "sha1": "76a11a3296e27f76892d33f2df5e7b4a351d9ec8",
+          "md5": "3b73d2ea7e5d5693b570620b27ad53bf"
+        }
+      ]
+    }
+  ]
+}

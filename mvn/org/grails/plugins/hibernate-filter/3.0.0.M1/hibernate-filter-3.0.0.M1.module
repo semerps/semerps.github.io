@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "hibernate-filter",
+    "version": "3.0.0.M1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "wded3sxqnrbrzbgd7zqtmeglja"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hibernate-filter-3.0.0.M1.jar",
+          "url": "hibernate-filter-3.0.0.M1.jar",
+          "size": 113806,
+          "sha512": "9ac99a30508cfc3e278decab84509971e1668428266c16b7d7615371038e11ff2b21734886b2b0464c7feaa9b3419a3651623962bc98c1069baabd118c682ff2",
+          "sha256": "ef3a823aac746d524748dc69b2089fc60f95998e6609ce80281357c128dbfb1d",
+          "sha1": "2ea2f144a0fe2b9948a4d454a4417dc76e332da6",
+          "md5": "d62a2adf81873a717c4d8a8302632c18"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-tomcat"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-boot"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-logging"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-rest"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-databinding"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-i18n"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-services"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-url-mappings"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-interceptors"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "cache"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "async"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "scaffolding"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "gsp"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "hibernate5"
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.4.18.Final"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-ehcache",
+          "version": {
+            "requires": "5.4.18.Final"
+          }
+        },
+        {
+          "group": "com.bertramlabs.plugins",
+          "module": "asset-pipeline-grails",
+          "version": {
+            "requires": "3.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hibernate-filter-3.0.0.M1.jar",
+          "url": "hibernate-filter-3.0.0.M1.jar",
+          "size": 113806,
+          "sha512": "9ac99a30508cfc3e278decab84509971e1668428266c16b7d7615371038e11ff2b21734886b2b0464c7feaa9b3419a3651623962bc98c1069baabd118c682ff2",
+          "sha256": "ef3a823aac746d524748dc69b2089fc60f95998e6609ce80281357c128dbfb1d",
+          "sha1": "2ea2f144a0fe2b9948a4d454a4417dc76e332da6",
+          "md5": "d62a2adf81873a717c4d8a8302632c18"
+        }
+      ]
+    }
+  ]
+}

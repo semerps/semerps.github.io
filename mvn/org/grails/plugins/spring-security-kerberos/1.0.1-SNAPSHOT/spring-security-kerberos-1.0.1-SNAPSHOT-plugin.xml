@@ -1,0 +1,12 @@
+<plugin name='spring-security-kerberos' version='1.0.1-SNAPSHOT' grailsVersion='2.3 &gt; *'>
+  <author>Burt Beckwith</author>
+  <authorEmail>burt@burtbeckwith.com</authorEmail>
+  <title>Spring Security Kerberos Plugin</title>
+  <description>Spring Security Kerberos plugin</description>
+  <documentation>http://grails-plugins.github.io/grails-spring-security-kerberos/</documentation>
+  <type>SpringSecurityKerberosGrailsPlugin</type>
+  <resources>
+    <resource>DefaultKerberosSecurityConfig</resource>
+    <resource>spring.resources</resource>
+  </resources>
+</plugin>

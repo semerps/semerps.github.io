@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>rabbitmq-native</artifactId>
+  <version>4.0.0.M1</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.gpars</groupId>
+      <artifactId>gpars</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.rabbitmq</groupId>
+      <artifactId>amqp-client</artifactId>
+      <version>4.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.dropwizard.metrics</groupId>
+      <artifactId>metrics-core</artifactId>
+      <version>3.2.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>RabbitMQ Native Plugin</name>
+  <description>RabbitMQ Native Plugin</description>
+  <url>https://github.com/budjb/grails-rabbitmq-native</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/budjb/grails-rabbitmq-native</url>
+    <connection>scm:git@github.com:budjb/grails-rabbitmq-native.git</connection>
+    <developerConnection>scm:git@github.com:budjb/grails-rabbitmq-native.git</developerConnection>
+  </scm>
+  <issueManagement>
+    <system>Github Issues</system>
+    <url>https://github.com/budjb/grails-rabbitmq-native/issues</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>budjb</id>
+      <name>Bud Byrd</name>
+    </developer>
+    <developer>
+      <id>olliefreeman</id>
+      <name>Oliver Freeman</name>
+    </developer>
+    <developer>
+      <id>aaron-brown</id>
+      <name>Aaron Brown</name>
+    </developer>
+  </developers>
+</project>

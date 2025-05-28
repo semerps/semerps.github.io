@@ -1,0 +1,19 @@
+<plugin name='rabbitmqNative' version='4.0.0.M1' grailsVersion='3.0.0 &gt; *'>
+  <type>com.budjb.rabbitmq.RabbitmqNativeGrailsPlugin</type>
+  <authorEmail>bud.byrd@gmail.com</authorEmail>
+  <developers>[[name:Aaron Brown, email:brown.aaron.lloyd@gmail.com], [name:Ollie Freeman, email:ollie.freeman@gmail.com]]</developers>
+  <author>Bud Byrd</author>
+  <documentation>http://budjb.github.io/grails-rabbitmq-native/3.x/latest/</documentation>
+  <description>The native RabbitMQ Grails plugin provides easily consumable messaging functionality.</description>
+  <title>Rabbitmq Native Plugin</title>
+  <version />
+  <grailsVersion>3.0.0 &gt; *</grailsVersion>
+  <loadAfter>[controllers, services, domains, hibernate, spring-security-core]</loadAfter>
+  <license>APACHE</license>
+  <issueManagement system='GITHUB' url='https://github.com/budjb/grails-rabbitmq-native/issues' />
+  <name>rabbitmq-native</name>
+  <scm url='https://github.com/budjb/grails-rabbitmq-native' />
+  <resources>
+    <resource>com.budjb.rabbitmq.Application</resource>
+  </resources>
+</plugin>

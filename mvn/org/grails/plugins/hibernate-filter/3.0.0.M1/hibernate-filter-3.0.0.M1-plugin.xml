@@ -1,0 +1,25 @@
+<plugin name='hibernateFilter' version='3.0.0.M1' grailsVersion='5.0.0.M1 &gt; *'>
+  <type>hibernate.filter.HibernateFilterGrailsPlugin</type>
+  <authorEmail>scott@bulldoginfo.com</authorEmail>
+  <developers>[[name:Burt Beckwith, email:beckwithb@vmware.com], [name:Alex Shneyderman, email:a.shneyderman@gmail.com], [name:Piotr Chowaniec, email:piotr.chowaniec@gmail.com], [name:Alex Kramer, email:ackramer19@gmail.com]]</developers>
+  <author>Scott Burch</author>
+  <documentation>http://grails.org/plugin/hibernate-filter</documentation>
+  <profiles>[web]</profiles>
+  <description>Integrates Hibernate filtering into Grails 3</description>
+  <title>Hibernate Filter plugin</title>
+  <version />
+  <observe>[*]</observe>
+  <grailsVersion>5.0.0.M1 &gt; *</grailsVersion>
+  <loadAfter>[controllers, hibernate]</loadAfter>
+  <license>APACHE</license>
+  <pluginExcludes>[]</pluginExcludes>
+  <issueManagement system='GitHub' url='https://github.com/alexkramer/grails-hibernate-filter/issues' />
+  <name>hibernate-filter</name>
+  <scm url='https://github.com/alexkramer/grails-hibernate-filter' />
+  <resources>
+    <resource>hibernate.filter.HibernateFilterInterceptor</resource>
+    <resource>hibernate.filter.UrlMappings</resource>
+    <resource>hibernate.filter.Application</resource>
+    <resource>hibernate.filter.BootStrap</resource>
+  </resources>
+</plugin>

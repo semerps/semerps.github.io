@@ -1,0 +1,15 @@
+<plugin name='sem-api-key-auth' version='0.2' grailsVersion='2.5 &gt; *'>
+  <author>Selami Altin</author>
+  <authorEmail>selamialtin@gmail.com</authorEmail>
+  <title>Sem Api Key Auth Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/sem-api-key-auth</documentation>
+  <type>SemApiKeyAuthGrailsPlugin</type>
+  <resources>
+    <resource>DefaultSemApiKeyConfig</resource>
+    <resource>SemApiKeyAuthUrlMappings</resource>
+    <resource>grails.plugin.sem.ApiKeyController</resource>
+    <resource>grails.plugin.sem.ApiKeyService</resource>
+  </resources>
+</plugin>

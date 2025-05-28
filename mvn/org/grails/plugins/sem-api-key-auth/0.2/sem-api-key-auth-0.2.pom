@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>sem-api-key-auth</artifactId>
+  <packaging>zip</packaging>
+  <version>0.2</version>
+  <name>Sem Api Key Auth Plugin</name>
+  <description>Brief summary/description of the plugin.
+</description>
+  <url>http://grails.org/plugin/sem-api-key-auth</url>
+  <developers>
+    <developer>
+      <name>Selami Altin</name>
+      <email>selamialtin@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>spring-security-core</artifactId>
+      <version>2.0.0</version>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>sem-rabbitmq</artifactId>
+  <version>1.1.SEM</version>
+  <versioning>
+    <versions>
+      <version>1.1.SEM</version>
+      <version>1.1.1</version>
+    </versions>
+    <lastUpdated>20200207081739</lastUpdated>
+  </versioning>
+</metadata>

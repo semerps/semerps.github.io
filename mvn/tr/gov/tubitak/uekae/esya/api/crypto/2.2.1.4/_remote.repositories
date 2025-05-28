@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 08 12:29:12 EET 2020
+crypto-2.2.1.4.jar>=
+crypto-2.2.1.4.pom>=

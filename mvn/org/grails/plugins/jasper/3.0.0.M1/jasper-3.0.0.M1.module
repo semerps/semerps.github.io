@@ -1,0 +1,288 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "jasper",
+    "version": "3.0.0.M1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "rrcorsibgbhrdajg5e6l4bt3oa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jasper-3.0.0.M1.jar",
+          "url": "jasper-3.0.0.M1.jar",
+          "size": 95493,
+          "sha512": "94d30a0307f80a5addf3889b10415d034869e4517ac97a823cf1052192008c3695f678b2172b6931e93483c89361ce8481f9ff5e4118d7173740bbba3e9309b1",
+          "sha256": "76ecf0bdf4e2aacbf1e043793f935c90a45ef52ebea8be50a78193adede08e96",
+          "sha1": "eb586c5df7dbdbf5d52caef17dca34fc5f7c6c6b",
+          "md5": "d001304b25047b05b274f9687043c8d1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-tomcat"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-boot"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-logging"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-rest"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-databinding"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-i18n"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-services"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-url-mappings"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-interceptors"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "cache"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "async"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "scaffolding"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "gsp"
+        },
+        {
+          "group": "com.lowagie",
+          "module": "itext",
+          "version": {
+            "requires": "2.1.7"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "net.sf.jasperreports",
+          "module": "jasperreports",
+          "version": {
+            "requires": "6.15.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "xercesImpl"
+            },
+            {
+              "group": "*",
+              "module": "xml-apis"
+            },
+            {
+              "group": "*",
+              "module": "jaxen"
+            },
+            {
+              "group": "*",
+              "module": "olap4j"
+            },
+            {
+              "group": "*",
+              "module": "hibernate"
+            },
+            {
+              "group": "*",
+              "module": "bcmail-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "barbecue"
+            },
+            {
+              "group": "*",
+              "module": "saaj-api"
+            },
+            {
+              "group": "*",
+              "module": "bctsp-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "xmlParserAPIs"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "jdtcore"
+            },
+            {
+              "group": "*",
+              "module": "xalan"
+            },
+            {
+              "group": "*",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "bctsp-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "mondrian"
+            },
+            {
+              "group": "*",
+              "module": "commons-javaflow"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            },
+            {
+              "group": "*",
+              "module": "antlr"
+            },
+            {
+              "group": "*",
+              "module": "persistence-api"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "xml-apis-ext"
+            },
+            {
+              "group": "*",
+              "module": "bcmail-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "barcode4j"
+            },
+            {
+              "group": "*",
+              "module": "groovy-all"
+            },
+            {
+              "group": "*",
+              "module": "bsh"
+            },
+            {
+              "group": "*",
+              "module": "xmlbeans"
+            },
+            {
+              "group": "*",
+              "module": "servlet-api"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi",
+          "version": {
+            "requires": "3.10-FINAL"
+          }
+        },
+        {
+          "group": "com.bertramlabs.plugins",
+          "module": "asset-pipeline-grails",
+          "version": {
+            "requires": "3.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jasper-3.0.0.M1.jar",
+          "url": "jasper-3.0.0.M1.jar",
+          "size": 95493,
+          "sha512": "94d30a0307f80a5addf3889b10415d034869e4517ac97a823cf1052192008c3695f678b2172b6931e93483c89361ce8481f9ff5e4118d7173740bbba3e9309b1",
+          "sha256": "76ecf0bdf4e2aacbf1e043793f935c90a45ef52ebea8be50a78193adede08e96",
+          "sha1": "eb586c5df7dbdbf5d52caef17dca34fc5f7c6c6b",
+          "md5": "d001304b25047b05b274f9687043c8d1"
+        }
+      ]
+    }
+  ]
+}

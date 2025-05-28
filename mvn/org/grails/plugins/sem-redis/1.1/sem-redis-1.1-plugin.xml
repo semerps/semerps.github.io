@@ -1,0 +1,10 @@
+<plugin name='sem-redis' version='1.1' grailsVersion='2.5 &gt; *'>
+  <author>Aydın Öztürk</author>
+  <authorEmail>aydin.ozturk@uzmar.net</authorEmail>
+  <title>Sem Redis Plugin</title>
+  <description>Hibernate L2 Cache Grails 2.5.6 plugin
+</description>
+  <documentation>http://grails.org/plugin/sem-redis</documentation>
+  <type>SemRedisGrailsPlugin</type>
+  <resources />
+</plugin>

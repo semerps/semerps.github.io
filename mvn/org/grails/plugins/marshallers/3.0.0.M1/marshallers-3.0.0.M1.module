@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "marshallers",
+    "version": "3.0.0.M1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "avcxazg5a5a53mkr7zegnflzcu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "marshallers-3.0.0.M1.jar",
+          "url": "marshallers-3.0.0.M1.jar",
+          "size": 112403,
+          "sha512": "b74a6db7c4a3f20fcec4d39ccfcd5831e4d7c4246767c471d04f6d5c093a2869a8fb8f6c50da3bccc51957e27d7788abd025680fe65cf8f2f0c0799ae2205f44",
+          "sha256": "9099ccfafd447d10ba9bf4d612dc55c6a5935924f775e8bcd44a6a04ce584ce8",
+          "sha1": "07d2e1eac17dcfd8a23c95c1a2f839cd94bb9e02",
+          "md5": "47dade3fa1d0022bd0e0d2fc1646f585"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-tomcat"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-web-boot"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-logging"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-rest"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-databinding"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-i18n"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-services"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-url-mappings"
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-interceptors"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "cache"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "async"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "scaffolding"
+        },
+        {
+          "group": "org.grails.plugins",
+          "module": "gsp"
+        },
+        {
+          "group": "com.bertramlabs.plugins",
+          "module": "asset-pipeline-grails",
+          "version": {
+            "requires": "3.2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "marshallers-3.0.0.M1.jar",
+          "url": "marshallers-3.0.0.M1.jar",
+          "size": 112403,
+          "sha512": "b74a6db7c4a3f20fcec4d39ccfcd5831e4d7c4246767c471d04f6d5c093a2869a8fb8f6c50da3bccc51957e27d7788abd025680fe65cf8f2f0c0799ae2205f44",
+          "sha256": "9099ccfafd447d10ba9bf4d612dc55c6a5935924f775e8bcd44a6a04ce584ce8",
+          "sha1": "07d2e1eac17dcfd8a23c95c1a2f839cd94bb9e02",
+          "md5": "47dade3fa1d0022bd0e0d2fc1646f585"
+        }
+      ]
+    }
+  ]
+}

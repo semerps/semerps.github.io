@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>spring-security-kerberos</artifactId>
+  <version>1.0.SEM</version>
+  <versioning>
+    <versions>
+      <version>1.0.SEM</version>
+    </versions>
+    <lastUpdated>20200207084042</lastUpdated>
+  </versioning>
+</metadata>

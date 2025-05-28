@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>sem-rabbitmq</artifactId>
+  <packaging>zip</packaging>
+  <version>1.1.0</version>
+  <name>Rabbitmq Native Plugin</name>
+  <description>The native RabbitMQ Grails plugin provides easily consumable messaging functionality.</description>
+  <url>http://budjb.github.io/grails-rabbitmq-native/doc/manual/guide/index.html</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Bud Byrd</name>
+      <email>bud.byrd@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GITHUB</system>
+    <url>https://github.com/budjb/grails-rabbitmq-native/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/budjb/grails-rabbitmq-native</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.rabbitmq</groupId>
+      <artifactId>amqp-client</artifactId>
+      <version>3.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

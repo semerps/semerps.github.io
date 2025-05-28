@@ -1,0 +1,8 @@
+<plugin name='sem-hibernate-cache' version='1.0' grailsVersion='2.0 &gt; *'>
+  <author>Aydın Öztürk</author>
+  <authorEmail>aydin.ozturk@uzmar.net</authorEmail>
+  <title>Redis Hibernate Cache Plugin</title>
+  <description>Grails integration with Redis as a backend for Hibernate 2nd level cache</description>
+  <type>SemHibernateCacheGrailsPlugin</type>
+  <resources />
+</plugin>

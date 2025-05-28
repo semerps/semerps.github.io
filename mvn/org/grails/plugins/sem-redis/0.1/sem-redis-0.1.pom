@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>sem-redis</artifactId>
+  <packaging>zip</packaging>
+  <version>0.1</version>
+  <name>Sem Redis Plugin</name>
+  <description>Brief summary/description of the plugin.
+</description>
+  <url>http://grails.org/plugin/sem-redis</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>UZMAR Teknoloji</name>
+    <url>http://uzmar.tech</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Aydın Öztürk</name>
+      <email>aydin.ozturk@uzmar.net</email>
+    </developer>
+    <developer>
+      <name>Aydın ÖZTÜRK</name>
+      <email>aydin.ozturk@uzmar.net</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.redisson</groupId>
+      <artifactId>redisson</artifactId>
+      <version>3.16.8</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
